@@ -1,0 +1,29 @@
+/* css combinators */
+
+/* greater than works only for its direct children */
+.parent > h1 {
+    color: red;
+}
+/* plus works for first sibling that comes after the parent */
+.parent + h1 {
+    color: blue;
+}
+/* space works for all nested children*/
+.parent h1 {
+    color: green;
+}
+/* tilda works for all siblings that come after the parent */
+.parent ~ h1 {
+    color: orange;
+}
+
+table, tr, td, th{
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color: dodgerblue;
+    color: white;
+    width: 800px;
+    min-height: 200px;
+    text-align: center;
+}
+
