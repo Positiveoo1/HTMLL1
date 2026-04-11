@@ -1,0 +1,36 @@
+/* 
+
+    in css we have 4 types of colors:
+    1. color name: red blue green balck white
+    2. rgb: rgb = red green blue 0-255
+    3. hex code: #rrggbb 0-9 a-f
+    4. hsl: hsl = hue saturation lightness 0-255 with percentages 0 -100%
+*/
+
+h1 {
+    color: blue;
+    /* color: lightgreen; */
+}
+h2 {
+    color: rgb(255, 100, 200);
+    color: rgb(123, 210, 230);
+}
+h3 {
+    color: #a3f4b5;
+}
+h4 {
+    color: hsl(210, 40%, 35%)
+}
+
+
+
+body {
+    /* background-color: #4576ef; */
+    /* background-image: url(./test.jpg); */
+    /* background-size: cover; */
+    /* background-size: contain; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* background-attachment: fixed; */
+    background: url(./test.jpg) no-repeat 0 0 / cover;
+}

@@ -1,0 +1,69 @@
+/* .container {
+    width: 100%;
+    width: 1000px;
+    width: auto;
+    min-width: 120px;
+    max-width: 200px;
+} */
+ /* .container {
+    min-width: 120px;
+    min-height: 200px;
+    border: 1px solid black;
+
+ } */
+  /* .container {
+    max-width: 120px;
+    max-height: 200px;
+    border: 1px solid black;
+
+ } */
+  .container {
+    min-width: auto;
+    min-height: 200px;
+    border: 1px solid black;
+
+ }
+ .h1 {
+    /* font-family: Arial, Helvetica, sans-serif; */
+   font-family: "Datatype", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+ }
+ .h2 {
+     font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+ }
+
+ .btn {
+    padding: 8px 12px;
+    background-color: dodgerblue;
+    color: white;
+    border: 1px solid dodgerblue;
+    outline: none;
+    border-radius: 12px;
+ }
+.btn:hover{
+    background-color: transparent;
+    color: black;
+    transition-duration: .5s;
+    transition-delay: .2s;
+    transition-timing-function: ease-in-out;
+    transition: all .5s ease ;
+    cursor: pointer;
+}
+.btn:active{
+    background-color: dodgerblue;
+    color: white;
+}
+li {
+    /* list-style-type: square; */
+    /* list-style-type: circle; */
+    /* list-style-type: number; */
+    /* list-style-position: inside; */
+    list-style-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHk3H1VVIOFWX6Pi8kvqi65DD7F2MMTQniZg&s');
+}

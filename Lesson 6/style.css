@@ -1,0 +1,22 @@
+div > h1 {
+    color: red;
+} 
+/* this above works only for its son */
+div + h1 {
+    color: blue;
+}
+/* this above works only for its first sibling */
+div ~ h1 {
+    color: green;
+}
+/* this above works for all siblings */
+
+div h1 {
+    color: dodgerblue;
+}
+/* this above works for all descendants */
+
+h1, h2 {
+    color: purple !important;
+}
+/* this above works for all h1 and h2, but if there is !important in other selector, it will be ignored */
